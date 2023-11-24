@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.h1primeiro{
+    color: greenyellow;
+}
+figure{
+    width: 5vw;
+}
+.linkscodigos{
+    display: flex;
+    padding-left: 50px;
+    border: solid greenyellow;
+    width: 80vw;
+   
+}
+.codigo{
+    padding: 10px;
+    background-color: black;
+}
+.codigo:hover{
+    padding: 10px;
+    background-color: gray;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: green;
+}
+.projetos{
+    color: greenyellow;
+}
+.final1{
+    color: greenyellow;
+}
+.final2{
+    color: greenyellow;
+    padding-bottom: 20px;
+}
+.redesocial:hover{
+    padding: 10px;
+    
+    
+}
+
+.estudos{
+    border: solid greenyellow;
+}
+
+.redessociais{
+    border: solid greenyellow;
+}
+.linkedinfoto{
+    width: 10vw;
+}
+.githubfoto{
+    width: 10vw;
+}
+figure{
+display: flex;
+padding-left: 15px;
+border: solid greenyellow;
+width: 80vw;
+border-radius: 20px;
+}
+.fotoreact{
+    width: 18vw;
+}
+.imageminverno{
+    width: 20vw;
+    height: 20vw;
+}
+.fotodisney{
+    width: 20vw;
+    height: 20vw;
+}
+
+@media(min-width:250px) and (max-width:500px){
+.fotoperfil{
+    width: 60vw;
+    height: 40vh;
+}
+.relogioben10{
+    width: 60vw;
+    height: 40vh;
+}
+.figureben10{
+  width: 70vw;
+  display: flex;
+  display: grid;
+}
+.linkscodigos{
+    display: flex;
+    display: grid;
+    width: 80vw;
+}
+.number1{
+    width: 37vw;
+}
+.fotoreact{
+    width: 30vw;
+}
+.imageminverno{
+    width: 30vw;
+}
+.fotodisney{
+    width: 30vw;
+}
+.logo{
+    width: 60vw;
+    height: 25vh;
+}
+.final2{
+    font-size: 17px;
+    
+}
+
+}
